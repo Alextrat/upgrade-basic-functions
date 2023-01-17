@@ -8,12 +8,10 @@ function averageWord(array) {
   
     if(typeof array[i] === 'number'){
         suma = suma +array[i];
-
         // console.log(suma)
     }else{
         sumaCadena = sumaCadena + array[i].length
         // console.log(sumaCadena)
-        // suma = suma + sumaCadena
     }
     sumaTotal = suma+sumaCadena
   }

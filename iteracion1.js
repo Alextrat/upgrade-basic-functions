@@ -10,3 +10,4 @@ function masAlto (num1, num2){
 
 masAlto(4, 6);
 masAlto(7, 2);
+
